@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "homepage": "https://www.github.com",
+  "authors": "iOS",
+  "summary": "test",
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "cocoapods_version": "= 1.6.0",
+  "swift_version": "4.1",
+  "source_files": "Classes/**/*.{h,m,mm,cpp,c,hpp,cc,swift}",
+  "resource_bundles": {
+    "test": [
+      "Assets/Assets.xcassets"
+    ]
+  }
+}
